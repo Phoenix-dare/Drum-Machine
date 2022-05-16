@@ -1,0 +1,38 @@
+ body{
+  background-color:black;
+  }
+#drum-machine{
+  width:400px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+  column-gap:1px;
+  row-gap:2px;
+  margin:0;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-150px;
+  border:8px groove #39FF14;
+  border-radius:5px;
+  color:white;
+  background-color:blue;
+  }
+.drum-pad{
+  margin:4px 7px;
+  padding:13px;
+  border: 3px solid red;
+  border-radius:5px;
+  background: black;
+  height: 75px;
+  width: 75px;
+  box-shadow:2px 3px 4px 3px orange;
+  text-align:center;
+}
+#display{
+  text-align:center;
+  background-color:black;
+  color:white;
+  margin:5px 7px;
+  position:relative;
+  }
